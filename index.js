@@ -3,8 +3,8 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const cors = require('cors');
 
-app.use(cors());
 const app = express();
+app.use(cors());
 const PORT = process.env.PORT || 6000;
 
 // Middleware to parse form data
